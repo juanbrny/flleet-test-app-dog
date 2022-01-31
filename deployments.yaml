@@ -10,6 +10,7 @@ spec:
   selector:
     matchLabels:
       app: app-dog
+  template:    
     metadata:
       labels:
         app: app-dog
