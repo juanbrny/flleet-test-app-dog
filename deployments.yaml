@@ -17,7 +17,7 @@ spec:
 
     spec:
       containers:
-      - name: app-gamma
+      - name: app-dog
         image: k8s.gcr.io/busybox
         command: [ "sh", "-c"]
         args:
