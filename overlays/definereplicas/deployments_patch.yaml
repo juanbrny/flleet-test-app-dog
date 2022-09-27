@@ -3,5 +3,5 @@
 metadata:
   labels:
     ## This label is applied to the deployment
-    #replicas: global.fleet.clusterLabels.min-replica-count
-    replicas: todas
+    replicas: global.fleet.clusterLabels.min-replica-count
+    #replicas: todas
