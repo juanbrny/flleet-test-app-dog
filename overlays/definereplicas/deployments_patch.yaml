@@ -1,2 +1,6 @@
-spec:
-  replicas: global.fleet.clusterLabels.management.cattle.io/test.min-replica-count
+#spec:
+#  replicas: global.fleet.clusterLabels.management.cattle.io/test.min-replica-count
+metadata:
+  labels:
+    ## This label is applied to the deployment
+    replicas: global.fleet.clusterLabels.management.cattle.io/test.min-replica-count
