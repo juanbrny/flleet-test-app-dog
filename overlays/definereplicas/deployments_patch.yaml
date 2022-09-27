@@ -1,0 +1,2 @@
+spec:
+  replicas: global.fleet.clusterLabels.management.cattle.io/test.min-replica-count
