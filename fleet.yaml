@@ -1,2 +1,11 @@
 # Default namespace
 namespace: default
+targetCustomizations:
+- name: test
+  clusterSelector:
+    matchLabels:
+      testid: labels
+  yaml:
+    overlays:
+    # Refers to overlays/noreplication folder
+    - definereplicas
